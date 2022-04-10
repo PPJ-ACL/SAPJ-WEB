@@ -8,6 +8,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System;
 using System.Data.SqlClient;
+using Google.Apis.Drive.v3;
+using System.Net.Mail;
+using System.Net;
 
 namespace CapaNegocio
 {
@@ -15,6 +18,7 @@ namespace CapaNegocio
     {
         private ConexionSQL conec;
 
+        static string[] Scopes = { DriveService.Scope.Drive };
         public ConexionSQL Conec { get => conec; set => conec = value; }
 
         //Cadena Francisco Veas
@@ -66,7 +70,69 @@ namespace CapaNegocio
             return valUsu;
         }
 
-        
-        
+        public string enviarMail(string to, string asunto, string body)
+        {
+            //Msg Error
+            string msge = "Error al enviar este correo. Por favor verifique los datos o intente más tarde.";
+            //Correo Origen
+            string from = "SAPJACL@gmail.com";
+            //Alias
+            string displayName = "SAPJ ACL";
+            try
+            {
+                //Instancia
+                MailMessage mail = new MailMessage();
+                //Desde donde sale el correo
+                mail.From = new MailAddress(from, displayName);
+                //Destinatario
+                mail.To.Add(to);
+                //Copia Segundo Destinatario
+                mail.CC.Add("fveas@acl.cl");
+                mail.CC.Add("lcordova@acl.cl");
+                //Asunto
+                mail.Subject = asunto;
+                //Cuerpo
+                mail.Body = body;
+                //Validacion Cuerpo HTML
+                mail.IsBodyHtml = true;
+
+                //Server a usar
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Aquí debes sustituir tu servidor SMTP y el puerto
+                //Credenciales
+                client.Credentials = new NetworkCredential(from, "SAPJ2021.");
+                //Cifrado SSL
+                client.EnableSsl = true;//En caso de que tu servidor de correo no utilice cifrado SSL,poner en false
+
+                //Enviar 
+                client.Send(mail);
+                //Msg Confirma
+                msge = "¡Correo enviado exitosamente! Pronto te contactaremos.";
+
+            }
+            catch (Exception ex)
+            {
+                msge = ex.Message + ". Por favor verifica tu conexión a internet y que tus datos sean correctos e intenta nuevamente.";
+            }
+
+            return msge;
+        }
+
+        public void updateClave(string correo, string contra)
+        {
+            string updateSql = "UPDATE VistaLoginWeb SET Contrasenna = '"+contra+"' WHERE Correo = '"+correo+"';";
+            SqlConnection con = new SqlConnection(ConnectString);
+            SqlCommand cmd = new SqlCommand(updateSql, con);
+            SqlDataReader mReader;
+            try
+            {
+                con.Open();
+                mReader = cmd.ExecuteReader();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 }

@@ -61,3 +61,14 @@ C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaNegocio.dll
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaConexion.dll
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaNegocio.pdb
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaConexion.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Drive.v3.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Core.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Newtonsoft.Json.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Drive.v3.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Drive.v3.xml
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.xml
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Core.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Google.Apis.Core.xml
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\Newtonsoft.Json.xml

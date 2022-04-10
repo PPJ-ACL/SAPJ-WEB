@@ -95,6 +95,7 @@
     <Content Include="Imagenes\PPJ.png" />
     <Content Include="Imagenes\Pregunta Icon.png" />
     <Content Include="LoginSAPJ.aspx" />
+    <Content Include="OlvidoClave.aspx" />
     <Content Include="PaginaCentral.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -106,6 +107,13 @@
     <Compile Include="LoginSAPJ.aspx.designer.cs">
       <DependentUpon>LoginSAPJ.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OlvidoClave.aspx.cs">
+      <DependentUpon>OlvidoClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvidoClave.aspx.designer.cs">
+      <DependentUpon>OlvidoClave.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PaginaCentral.aspx.cs">
       <DependentUpon>PaginaCentral.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +124,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="credentials.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

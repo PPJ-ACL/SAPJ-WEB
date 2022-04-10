@@ -21,14 +21,16 @@
         <div id="Contenedor">
             <h2>    
                 <asp:Label id="lblUsuario" Text="Usuario:" runat="server" />
-                <asp:TextBox id="tbUsuario" runat="server" CssClass="form-control" />         
+                <asp:TextBox id="tbUsuario" runat="server" CssClass="form-control" PlaceHolder ="Ingrese su usuario"/>         
             </h2>
             <h2>
                 <asp:Label id="lblPassword" Text="Contraseña:" runat="server" />
-                <asp:TextBox id="tbPassword" runat="server" CssClass="form-control" TextMode="Password" />  
+                <asp:TextBox id="tbPassword" runat="server" CssClass="form-control" TextMode="Password" PlaceHolder ="Ingrese su contraseña"/>  
             </h2>
-             <asp:Label id="lblError" Text="" runat="server" />
+             <asp:Label id="lblError" Text="" runat="server" /> <br/>
+            
             <div id="CentraTexto">
+                <a href="OlvidoClave.aspx">¿Olvidaste tu Contraseña?</a> <br/>
                 <asp:Button id="BtnIngresar" Text="Ingresar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnIngresar_Click"/>
             </div>    
         </div>
