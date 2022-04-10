@@ -57,3 +57,7 @@ C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\obj\Debug\CapaGUI.cspro
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\obj\Debug\CapaGUI.csproj.CopyComplete
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\obj\Debug\CapaGUI.dll
 C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\obj\Debug\CapaGUI.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaNegocio.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaConexion.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaNegocio.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaGUI\bin\CapaConexion.pdb

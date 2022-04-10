@@ -95,6 +95,7 @@
     <Content Include="Imagenes\PPJ.png" />
     <Content Include="Imagenes\Pregunta Icon.png" />
     <Content Include="LoginSAPJ.aspx" />
+    <Content Include="PaginaCentral.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="LoginSAPJ.aspx.designer.cs">
       <DependentUpon>LoginSAPJ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaCentral.aspx.cs">
+      <DependentUpon>PaginaCentral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaCentral.aspx.designer.cs">
+      <DependentUpon>PaginaCentral.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -116,7 +124,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{A5C9E029-5F6D-4765-A903-BA29A7B41C52}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

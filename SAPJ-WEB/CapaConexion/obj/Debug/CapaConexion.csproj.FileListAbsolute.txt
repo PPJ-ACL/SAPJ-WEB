@@ -1,0 +1,6 @@
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\obj\Debug\CapaConexion.csproj.AssemblyReference.cache
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaConexion\obj\Debug\CapaConexion.pdb

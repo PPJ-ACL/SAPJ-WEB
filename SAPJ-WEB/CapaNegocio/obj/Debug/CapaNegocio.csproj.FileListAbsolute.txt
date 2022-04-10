@@ -1,0 +1,9 @@
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\bin\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\bin\Debug\CapaConexion.pdb
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Guachupe\source\repos\SAPJ-WEB\SAPJ-WEB\CapaNegocio\obj\Debug\CapaNegocio.pdb
