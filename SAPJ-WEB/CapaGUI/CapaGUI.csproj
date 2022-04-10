@@ -68,6 +68,32 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\estilo.css" />
+    <Content Include="Imagenes\ACL.png" />
+    <Content Include="Imagenes\Boton Login.png" />
+    <Content Include="Imagenes\Boton Volver.png" />
+    <Content Include="Imagenes\Brazuca Sitting.png" />
+    <Content Include="Imagenes\Circulo User.png" />
+    <Content Include="Imagenes\Config.png" />
+    <Content Include="Imagenes\Icon Estudio.png" />
+    <Content Include="Imagenes\Icon Java Estudio.png" />
+    <Content Include="Imagenes\Icon Karate Estudio.png" />
+    <Content Include="Imagenes\Icon PostMan Estudio.png" />
+    <Content Include="Imagenes\Icon Tips.png" />
+    <Content Include="Imagenes\iconExit.png" />
+    <Content Include="Imagenes\iconFull.png" />
+    <Content Include="Imagenes\iconMin.png" />
+    <Content Include="Imagenes\imagen 4.png" />
+    <Content Include="Imagenes\Line 2.png" />
+    <Content Include="Imagenes\Line 4.png" />
+    <Content Include="Imagenes\Mail.png" />
+    <Content Include="Imagenes\MERN Basico1.png" />
+    <Content Include="Imagenes\MERN.png" />
+    <Content Include="Imagenes\Nubes.png" />
+    <Content Include="Imagenes\Pass.png" />
+    <Content Include="Imagenes\PPJ LogAPP.png" />
+    <Content Include="Imagenes\PPJ-IconoAPP.ico" />
+    <Content Include="Imagenes\PPJ.png" />
+    <Content Include="Imagenes\Pregunta Icon.png" />
     <Content Include="LoginSAPJ.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -90,9 +116,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Imagenes\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

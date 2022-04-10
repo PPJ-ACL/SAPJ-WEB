@@ -13,5 +13,10 @@ namespace CapaGUI
         {
 
         }
+
+        protected void BtnIngresar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

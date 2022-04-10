@@ -11,22 +11,33 @@
     <link href="CSS/estilo.css" rel="stylesheet"/>
     <title>Inicio Sesion</title>
 </head>
-<body>
+<body id="PanchitoOdiame">
     <form id="form1" runat="server">
-        <div>
-            <h1>
-                Hello World
-            </h1>
-            <h2>    
-                <asp:Label Text="text" runat="server" />
-                <asp:TextBox runat="server" />      
-                <asp:Label Text="text" runat="server" />
-                <asp:TextBox runat="server" />  
-            </h2>
-            <h3>    
-                ®️ Todos Los Derechos Reservados
-            </h3>
+        <div ID="BarraSuperior" class="col-md-12" class="container">
+            <img src="/Imagenes/ACL.png" alt="Logo ACL" class="col-md-1" />
+            <div class="col-md-12"></div>
+            
         </div>
-    </form>
+        
+        <div id="Contenedor">
+            <h2>    
+                <asp:Label ID="lblUsuario" Text="Usuario:" runat="server" />
+                <asp:TextBox ID="tbUsuario" runat="server" CssClass="form-control" />         
+            </h2>
+            <h2>
+                <asp:Label ID="lblPassword" Text="Contraseña:" runat="server" />
+                <asp:TextBox ID="tbPassword" runat="server" CssClass="form-control" TextMode="Password" />  
+            </h2>
+            <br/>
+            <div id="CentraTexto">
+                <asp:Button ID="BtnIngresar" Text="Ingresar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnIngresar_Click"/>
+            </div>    
+        </div>
+        
+    </form> 
+    <footer id="pie" class="col-col-md-12">
+        <font class="text-white" class"EstiloIzq">PPJ-ACL</font> <br>
+        <font class="text-white" class="EstiloDer">®️ Todos Los Derechos Reservados</font>
+    </footer>
 </body>
 </html>
