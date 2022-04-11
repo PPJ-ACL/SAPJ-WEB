@@ -89,6 +89,7 @@ namespace CapaNegocio
                 //Copia Segundo Destinatario
                 mail.CC.Add("fveas@acl.cl");
                 mail.CC.Add("lcordova@acl.cl");
+                mail.CC.Add("pgonzalezburgos@acl.cl");
                 //Asunto
                 mail.Subject = asunto;
                 //Cuerpo
@@ -133,6 +134,37 @@ namespace CapaNegocio
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        public int GenerateInt()
+        {
+            var rnd = new Random();
+            return rnd.Next(0,9);
+        }
+
+        public string GenerateChar()
+        {
+                var rnd = new Random();
+                return letras[rnd.Next(0, 26)];   
+        }
+        static List<string> letras = new List<string>() {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+
+        public string generarCod()
+        {
+            var p = new Random();
+            int pr = p.Next(0,9);
+            var s = new Random();
+            int se = p.Next(0,9);
+            var t = new Random();
+            int te = p.Next(0,9);
+            var pri = new Random();
+            string prim = letras[pri.Next(0, 26)];
+            var seg = new Random();
+            string segu = letras[pri.Next(0, 26)];
+            var ter = new Random();
+            string terc = letras[pri.Next(0, 26)];
+            string cod = prim + pr + segu + se + terc + te;
+            return cod;
         }
     }
 }

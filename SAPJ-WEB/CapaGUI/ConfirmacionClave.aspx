@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OlvidoClave.aspx.cs" Inherits="CapaGUI.OlvidoClave" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ConfirmacionClave.aspx.cs" Inherits="CapaGUI.ConfirmacionClave" %>
 
 <!DOCTYPE html>
 
@@ -13,7 +13,7 @@
 </head>
 <body id="PanchitoOdiame">
     <form id="form1" runat="server">
-        <div id="BarraSuperior" class="col-md-12">
+       <div id="BarraSuperior" class="col-md-12">
             <img src="/Imagenes/ACL.png" alt="Logo ACL" class="col-md-1" />
             <div class="col-md-11"></div>
         </div>
@@ -22,15 +22,17 @@
                 <asp:Label id="lblCorreo" Text="Correo:" runat="server" />
                 <asp:TextBox id="tbCorreo" runat="server" CssClass="form-control" PlaceHolder ="Ingrese su Correo"/>         
             </h4>
-            <h4>
-                <asp:Label id="lblContrasennaNueva" Text="Contraseña Nueva:" runat="server" />
-                <asp:TextBox id="tbContrasennaNueva" runat="server" CssClass="form-control" PlaceHolder ="Ingrese su nueva Contraseña" TextMode="Password"/>     
-                <asp:Label id="lblConfirmaContrasenna" Text="Confirme Contraseña Nueva:" runat="server" />
-                <asp:TextBox id="tbConfirmaContrasenna" runat="server" CssClass="form-control" PlaceHolder ="Confirme su nueva Contraseña" TextMode="Password"/>     
-            </h4>
              <asp:Label id="lblError" Text="" runat="server" /> <br/>   
             <div id="CentraTexto">
-                <asp:Button id="BtnEnviar" Text="Enviar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnEnviar_Click"/>
+                <asp:Button id="BtnEnviarCorreo" Text="Enviar Correo" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnEnviarCorreo_Click"/>
+                <br/>
+                <div class="col-sm-12">
+                  <asp:Label id="lblCodVerificacion" Text="Código de Verificación:" runat="server" /><br/>
+                  <asp:TextBox id="tbCodigoVerif" runat="server" CssClass="form-control-sm" PlaceHolder ="Ingrese su Código de Verificación"/>
+                  <asp:Button id="BtnConfirmar" Text="Confirmar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnConfirmar_Click"/>
+                    <asp:Label id="lblValida" Text="" runat="server" Visible="false"/>
+                </div>
+                
             </div>    
         </div>
     </form>

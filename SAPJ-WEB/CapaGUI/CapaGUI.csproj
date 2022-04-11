@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConfirmacionClave.aspx" />
     <Content Include="CSS\estilo.css" />
     <Content Include="Imagenes\ACL.png" />
     <Content Include="Imagenes\Boton Login.png" />
@@ -100,6 +101,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfirmacionClave.aspx.cs">
+      <DependentUpon>ConfirmacionClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmacionClave.aspx.designer.cs">
+      <DependentUpon>ConfirmacionClave.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginSAPJ.aspx.cs">
       <DependentUpon>LoginSAPJ.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

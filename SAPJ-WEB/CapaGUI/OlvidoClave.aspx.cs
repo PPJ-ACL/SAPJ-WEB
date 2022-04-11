@@ -12,7 +12,17 @@ namespace CapaGUI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string correo = Request.QueryString["Correo"];
+            tbCorreo.Text = correo;
+            if (tbCorreo.Text.Length>0)
+            {
+              tbCorreo.ReadOnly = true;
+            }
+            else
+            {
+                tbCorreo.ReadOnly = false;
+            }
+            
         }
 
         protected void BtnEnviar_Click(object sender, EventArgs e)

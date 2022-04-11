@@ -30,7 +30,7 @@
              <asp:Label id="lblError" Text="" runat="server" /> <br/>
             
             <div id="CentraTexto">
-                <a href="OlvidoClave.aspx">¿Olvidaste tu Contraseña?</a> <br/>
+                <a href="ConfirmacionClave.aspx">¿Olvidaste tu Contraseña?</a> <br/>
                 <asp:Button id="BtnIngresar" Text="Ingresar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnIngresar_Click"/>
             </div>    
         </div>
