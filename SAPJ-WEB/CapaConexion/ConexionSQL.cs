@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace CapaConexion
 {
+    // Patricio González 06/04/2022 
     public class ConexionSQL
     {
         private string nombreBaseDatos;
