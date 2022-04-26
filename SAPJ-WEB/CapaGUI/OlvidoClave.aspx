@@ -11,24 +11,22 @@
     <link href="CSS/estilo.css" rel="stylesheet"/>
     <title></title>
 </head>
-<body id="PanchitoOdiame">
+<body>
     <form id="form1" runat="server">
-        <div id="BarraSuperior" class="col-md-12">
-            <img src="/Imagenes/ACL.png" alt="Logo ACL" class="col-md-1" />
-            <div class="col-md-11"></div>
-        </div>
         <div id="Contenedor">
             <h4>    
-                <asp:Label id="lblCorreo" Text="Correo:" runat="server" />
+                <br />
+                <br />
+                <asp:Label id="lblCorreo" Text="Correo:" runat="server" class="letras"/>
                 <asp:TextBox id="tbCorreo" runat="server" CssClass="form-control" PlaceHolder ="Ingrese su Correo"/>         
             </h4>
             <h4>
-                <asp:Label id="lblContrasennaNueva" Text="Contraseña Nueva:" runat="server" />
+                <asp:Label id="lblContrasennaNueva" Text="Contraseña Nueva:" runat="server" class="letras" />
                 <asp:TextBox id="tbContrasennaNueva" runat="server" CssClass="form-control" PlaceHolder ="Ingrese su nueva Contraseña" TextMode="Password"/>     
-                <asp:Label id="lblConfirmaContrasenna" Text="Confirme Contraseña Nueva:" runat="server" />
+                <asp:Label id="lblConfirmaContrasenna" Text="Confirme Contraseña Nueva:" runat="server" class="letras"/>
                 <asp:TextBox id="tbConfirmaContrasenna" runat="server" CssClass="form-control" PlaceHolder ="Confirme su nueva Contraseña" TextMode="Password"/>     
             </h4>
-             <asp:Label id="lblError" Text="" runat="server" /> <br/>   
+             <asp:Label id="lblError" Text="" runat="server" class="letras"/> <br/>   
             <div id="CentraTexto">
                 <asp:Button id="BtnEnviar" Text="Enviar" CssClass="btn btn-primary btn-lg btn-block" runat="server" OnClick="BtnEnviar_Click"/>
             </div>    

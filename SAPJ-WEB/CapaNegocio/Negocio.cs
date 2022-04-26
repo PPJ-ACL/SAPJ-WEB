@@ -23,11 +23,11 @@ namespace CapaNegocio
         public ConexionSQL Conec { get => conec; set => conec = value; }
 
         //Cadena Francisco Veas
-        String ConnectString = @"Data Source=DESKTOP-8DLFPLG\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
+        //String ConnectString = @"Data Source=DESKTOP-8DLFPLG\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
         //Cadena Patricio Gonzalez
         //String ConnectString = @"Data Source=MARUCHANBOOK;Initial Catalog=SAPJDEV ;Integrated Security=True";
         //Cadena Luis Cordova
-        // String ConnectString = @"Data Source=LUCHITO-PC\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
+        String ConnectString = @"Data Source=LUCHITO-PC\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
         public void configConex()
         {
             //datos de la base de datos 
