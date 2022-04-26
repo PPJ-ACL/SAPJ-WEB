@@ -1,0 +1,118 @@
+﻿
+body {
+    background-image: url(../Imagenes/LogeadoFondo.png);
+    background-repeat: no-repeat;
+    width:100%;
+    height:820px;
+    
+}
+
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    color: #E02957;
+    font-size: 60px;
+    margin-left: 48px;
+    margin-top: 43.07px;
+    font-weight: 600;
+    color: #E02957;
+    margin-bottom:70px;
+ 
+}
+.tarjeta1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#imgClass{
+    width:380px;
+    margin-left:20px;
+}
+.imgClass {
+    position: center;
+    margin-top: 45px;
+}
+
+.tarjetaUser {
+
+    text-shadow: 2px 2px #000000;
+}
+.tarjetaCursos, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #E02957;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+}
+.tarjetaCursos, h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #E02957;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #E02957;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    line-height:2;
+}
+
+.seleContact{
+    text-align:center;
+    position:center;
+}
+
+.tarjetaContacto{
+    font-family: 'Poppins', sans-serif;
+    color: #E02957;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.tarjetaContacto, h5 {
+    font-weight: 800;
+
+    line-height: 4;
+    margin-top: -15px;
+}
+
+.contactosCard{
+    width: 650px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: all .2s;
+}
+
+
+.imgClass2 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.imgGmail {
+
+    position: relative;
+    margin-left: 485px;
+    margin-top: -211px;
+}
+.imgWhatsapp {
+
+
+    position: relative;
+    margin-left: 485px;
+    margin-top: -98px;
+}

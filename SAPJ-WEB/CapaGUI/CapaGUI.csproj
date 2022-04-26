@@ -68,13 +68,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConfirmacionClave.aspx" />
+    <Content Include="CSS\botones.css" />
+    <Content Include="CSS\estilo2.css" />
     <Content Include="CSS\estilo.css" />
     <Content Include="Imagenes\ACL.png" />
+    <Content Include="Imagenes\avatadef.png" />
+    <Content Include="Imagenes\avatarIcon.png" />
+    <Content Include="Imagenes\avatarIcon2 %282%29.png" />
     <Content Include="Imagenes\Boton Login.png" />
     <Content Include="Imagenes\Boton Volver.png" />
     <Content Include="Imagenes\Brazuca Sitting.png" />
     <Content Include="Imagenes\Circulo User.png" />
     <Content Include="Imagenes\Config.png" />
+    <Content Include="Imagenes\ConfigWeb.png" />
+    <Content Include="Imagenes\CursoIcon.png" />
+    <Content Include="Imagenes\diseWeb.png" />
+    <Content Include="Imagenes\EngranajeIcon.png" />
+    <Content Include="Imagenes\Facebook.png" />
+    <Content Include="Imagenes\Faceicon.png" />
+    <Content Include="Imagenes\Gmail.png" />
     <Content Include="Imagenes\Icon Estudio.png" />
     <Content Include="Imagenes\Icon Java Estudio.png" />
     <Content Include="Imagenes\Icon Karate Estudio.png" />
@@ -84,8 +96,14 @@
     <Content Include="Imagenes\iconFull.png" />
     <Content Include="Imagenes\iconMin.png" />
     <Content Include="Imagenes\imagen 4.png" />
+    <Content Include="Imagenes\Instagram.png" />
+    <Content Include="Imagenes\InstagramIcon.png" />
     <Content Include="Imagenes\Line 2.png" />
     <Content Include="Imagenes\Line 4.png" />
+    <Content Include="Imagenes\Linkedin.png" />
+    <Content Include="Imagenes\LinkIcon.png" />
+    <Content Include="Imagenes\LogeadoFondo.png" />
+    <Content Include="Imagenes\LogeadoFondoLogin.png" />
     <Content Include="Imagenes\Mail.png" />
     <Content Include="Imagenes\MERN Basico1.png" />
     <Content Include="Imagenes\MERN.png" />
@@ -95,10 +113,15 @@
     <Content Include="Imagenes\PPJ-IconoAPP.ico" />
     <Content Include="Imagenes\PPJ.png" />
     <Content Include="Imagenes\Pregunta Icon.png" />
+    <Content Include="Imagenes\TipsIcon.png" />
+    <Content Include="Imagenes\TrucosIcon.png" />
+    <Content Include="Imagenes\Whatsapp.png" />
     <Content Include="LoginSAPJ.aspx" />
     <Content Include="OlvidoClave.aspx" />
     <Content Include="PaginaCentral.aspx" />
+    <Content Include="PantallaCarga.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Contactos.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfirmacionClave.aspx.cs">
@@ -129,7 +152,21 @@
     <Compile Include="PaginaCentral.aspx.designer.cs">
       <DependentUpon>PaginaCentral.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PantallaCarga.aspx.cs">
+      <DependentUpon>PantallaCarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PantallaCarga.aspx.designer.cs">
+      <DependentUpon>PantallaCarga.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Contactos.aspx.cs">
+      <DependentUpon>Contactos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactos.aspx.designer.cs">
+      <DependentUpon>Contactos.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="credentials.json" />
@@ -147,6 +184,7 @@
       <Name>CapaNegocio</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
